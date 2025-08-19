@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910318716037",
+    "project_id": "cookgram-b5172",
+    "storage_bucket": "cookgram-b5172.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910318716037:android:6f8d6e6c87e35e282c55ec",
+        "android_client_info": {
+          "package_name": "com.example.cookgram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEC2uy8JrcHvKSZUfX1b3wcW6Q7DYV7-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
