@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main"
-    tools:context=".MainActivity">
+    tools:context=".WelcomeActivity">
 
 
     <ImageView
@@ -95,13 +95,13 @@
         android:text="let's get started"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintBottom_toTopOf="@+id/loginBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/loginBtn"
         android:layout_width="285dp"
         android:layout_height="60dp"
         android:layout_marginTop="32dp"
@@ -118,7 +118,7 @@
         app:strokeWidth='2dp' />
 
     <Button
-        android:id="@+id/sign_up"
+        android:id="@+id/signupBtn"
         android:layout_width="285dp"
         android:layout_height="60dp"
         android:layout_marginTop="22dp"
@@ -130,7 +130,7 @@
         android:textSize="27sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn"
         app:strokeColor="#512719"
         app:strokeWidth='2dp' />
 
