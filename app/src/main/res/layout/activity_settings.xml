@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FAE8E2"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/backbtn"
+        android:contentDescription="Back" />
+
+    <Button
+        android:id="@+id/btnChangeEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Change Email"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Change Password"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Log out"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF725E"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Delete account"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF725E"
+        android:textColor="@color/black" />
+
+</LinearLayout>
